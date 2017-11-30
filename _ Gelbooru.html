@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://gelbooru.com/index.php?page=help&topic=dapi -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title> | Gelbooru</title><link rel="stylesheet" type="text/css" media="screen" href="./_ Gelbooru_files/default.css" title="default">
+		<link rel="stylesheet" type="text/css" media="screen" href="./_ Gelbooru_files/jquery-ui.css" title="default">
+		
+		<link rel="SHORTCUT ICON" href="https://gelbooru.com/favicon.png">
+		<meta name="keywords" content="anime, doujinshi, hentai, porn, sex, japanese hentai, anime hentai, imageboard">
+		<meta name="description" content="Gelbooru is one of the largest hentai and safe image resource available! Over a million images for you to search and view, and it is all free!">
+		<meta name="rating" content="mature">
+		<link rel="search" type="application/opensearchdescription+xml" title="Gelbooru.com: Coded by Geltas" href="https://gelbooru.com/gelbooru.xml">
+		
+		<script type="text/javascript" async="" src="./_ Gelbooru_files/recaptcha__en.js.download"></script><script src="./_ Gelbooru_files/api.js.download"></script>
+		<script src="./_ Gelbooru_files/jquery.min.js.download"></script>
+		<script type="text/javascript" src="./_ Gelbooru_files/application.js.download"></script>
+	</head>
+	<body>
+		<script type="text/javascript" src="./_ Gelbooru_files/ad_track.js.download"></script><script type="text/javascript" src="./_ Gelbooru_files/ad99uip8i.php"></script>
+		<div class="header">
+			<div class="center">
+				<h2 class="siteName"><a href="https://gelbooru.com/">Gelbooru</a></h2>
+				<ul class="flat-list">
+					<li><a href="https://gelbooru.com/index.php?page=account&amp;s=home">My Account</a></li>
+					<li><a href="https://gelbooru.com/index.php?page=post&amp;s=list&amp;tags=all">Posts</a></li>
+					<li><a href="https://gelbooru.com/index.php?page=comment&amp;s=list">Comments</a></li>
+					<li><a href="https://gelbooru.com/index.php?page=wiki&amp;s=list">Wiki</a></li>
+					<li><a href="https://gelbooru.com/index.php?page=tags&amp;s=list">Tags</a></li>
+					<li><a href="https://gelbooru.com/index.php?page=pool&amp;s=list">Pools</a></li>
+					<li><a href="https://gelbooru.com/index.php?page=forum&amp;s=list">Forum</a></li>
+					<li><a href="https://gelbooru.com/index.php?page=tracker&amp;s=list">Trac</a></li>
+					<li><a href="http://thedoujin.com/" target="_BLANK" style="color: #fff000;"><b>Doujin</b></a></li>
+					<li class="current-page"><a href="https://gelbooru.com/index.php?page=help" style="color: #00ff00;"><b>Help</b></a></li>
+				</ul>
+			</div>
+		</div><div class="submenu">
+			<div class="center"><ul class="flat-list2" id="subnavbar"><li><a href="https://gelbooru.com/index.php?page=help&amp;s=home">Home</a></li></ul></div></div>
+		<div class="noticeError" style="">
+			<div class="center">
+				<i><b>Notice</b></i>: Do you have an artist tag on Gelbooru? <a href="https://discord.gg/PQ3UMur" target="_blank" rel="nofollow" style="color: #ffff00;">Let us know so we can properly credit you!</a>
+			</div>
+		</div>
+	<div id="long-notice"></div><div id="notice" style="display: none;"></div>
+	<div class="success-notice" style="display: none;"><a href="https://gelbooru.com/index.php?page=gmail">You have mail</a></div><br>
+<div id="content">
+    <div class="help">
+  <h1>API Basics</h1>
+  You should never receive an error unless the server is overloaded or the search dies. In cases of the searcher breaking, you will receive a response success of "false" and a message stating "search down" or similiar.<br><br>
+      <div class="section">
+	<h2>Posts</h2>	  
+	<h4>List</h4>
+Url for API access: <b>/index.php?page=dapi&amp;s=post&amp;q=index</b><br><br>
+<ul>
+	<li><strong>limit</strong> How many posts you want to retrieve. There is a hard limit of 100 posts per request.</li>
+	<li><strong>pid</strong> The page number.</li>
+	<li><strong>tags</strong> The tags to search for. Any tag combination that works on the web site will work here. This includes all the meta-tags. See cheatsheet for more information.</li>
+	<li><strong>cid</strong> Change ID of the post. This is in Unix time so there are likely others with the same value if updated at the same time.</li>
+	<li><strong>id</strong> The post id.</li>
+	<li><strong>json</strong> Set to 1 for JSON formatted response.</li>
+</ul>
+</div>
+ <div class="section">
+	<h4>Deleted Images</h4>
+Url for API access: <b>/index.php?page=dapi&amp;s=post&amp;q=index&amp;deleted=show</b><br><br>
+<ul>
+	<li><strong>last_id</strong> A numerical value. Will return everything above this number.</li>
+</ul>
+</div>
+      <div class="section">
+	<h2>Comments</h2>
+		<h4>List</h4>
+Url for API access: <b>/index.php?page=dapi&amp;s=comment&amp;q=index</b><br><br>
+<ul>
+	<li><strong>post_id</strong> The id number of the comment to retrieve.</li>
+</ul>
+
+</div></div></div><div style="width:100%;height:100%;position:fixed;top:0;left:0;z-index:9999999;display:none;"></div></body></html>

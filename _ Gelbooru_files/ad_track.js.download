@@ -1,0 +1,5 @@
+(function()
+{
+    var exoDocumentProtocol = (document.location.protocol != "https:" && document.location.protocol != "http:") ? "https:" : document.location.protocol;
+    document.write('<script type="text/javascript" src="' + exoDocumentProtocol + "//ads.exoclick.com/ad99uip8i.php" + '"></script>');
+})();

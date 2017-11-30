@@ -1,0 +1,39 @@
+{
+  "name": "FjormBot",
+  "description": "YouTube playback bot for Discord",
+  "main": "testingforvoteskip.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meew0/Lethe.git"
+  },
+  "keywords": [
+    "youtube",
+    "discord",
+    "playback",
+    "video",
+    "song"
+  ],
+  "author": "meew0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meew0/Lethe/issues"
+  },
+  "homepage": "https://github.com/meew0/Lethe#readme",
+  "dependencies": {
+    "bufferutil": "^3.0.2",
+    "cheerio": "latest",
+    "discord.js": "^11.1.0",
+    "erlpack": "github:hammerandchisel/erlpack",
+    "express": "latest",
+    "git-rev": "^0.2.1",
+    "moment": "latest",
+    "node-opus": "^0.2.6",
+    "opusscript": "^0.0.1",
+    "request": "^2.67.0",
+    "sodium": "^2.0.1",
+    "uws": "^0.14.1",
+    "xml2js": "latest",
+    "ytdl-core": "latest"
+  },
+  "version": "1.0.0"
+}
